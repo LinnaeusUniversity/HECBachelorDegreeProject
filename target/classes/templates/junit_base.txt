@@ -1,0 +1,8 @@
+package com.testsuite;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import com.testsuite.examples.model1.ModelSolution1;
+
+public class TestModel1 {
