@@ -1,0 +1,10 @@
+Test case: a = 19 b = 17 = (b) = 17
+Test case: a = 2 b = 20 = (b) = 20
+Test case: a = 14 b = 14 = (b) = 14
+Test case: a = 10 b = 12 = (b) = 12
+Test case: a = 2 b = 16 = (b) = 16
+Test case: a = 19 b = 11 = (b) = 11
+Test case: a = 5 b = 5 = (b) = 5
+Test case: a = 12 b = 9 = (b) = 9
+Test case: a = 19 b = 1 = (b) = 1
+Test case: a = 7 b = 7 = (b) = 7

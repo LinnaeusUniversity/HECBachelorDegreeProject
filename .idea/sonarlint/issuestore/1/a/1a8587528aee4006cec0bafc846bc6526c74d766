@@ -1,0 +1,16 @@
+
+J
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜
+_
+java:S2095Œ"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Åß·Ã
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(³ü±Ïûÿÿÿÿ
+G
+java:S1612X",Replace this lambda with a method reference.(½äÑµøÿÿÿÿ
+j
+java:S4042ˆ"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+G
+java:S1602X",Remove useless curly braces around statement(½äÑµøÿÿÿÿ
+V	java:S899ˆ";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+]	java:S899‰"BDo something with the "boolean" value returned by "createNewFile".(Ð’Íùÿÿÿÿ
+S
+java:S1117š"7Rename "map" which hides the field declared at line 22.(ü…‹Êþÿÿÿÿ

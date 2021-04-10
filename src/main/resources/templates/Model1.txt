@@ -1,0 +1,8 @@
+
+		int a = #A# ;
+		int b = #B# ;
+
+		ModelSolution1 model = new ModelSolution1();
+
+		Assert.assertEquals( #RESULT# , model.add(a, b));
+
