@@ -44,6 +44,40 @@ No |    Supported Mutation | Operators
 6   | Boolean Constants | True, False   
 
 ***
+#### Model Solution
+
+     public int add(int a, int b) {
+            return a + b;
+        }
+***
+#### Buggy version of the correct program, The Mutants
+1. Buggy version
+         
+       public int add(int a, int b) {
+             return a - b;
+         }
+        
+1. Buggy version
+       
+       public int add(int a, int b) {
+                    return a * b;
+                }       
+1. Buggy version
+       
+       public int add(int a, int b) {
+                    return a / b;
+                } 
+1. Buggy version
+       
+       public int add(int a, int b) {
+                    return a;
+                } 
+1. Buggy version
+       
+       public int add(int a, int b) {
+                    return a;
+                }               
+***
 #### Automated test suites
 
      @Test
