@@ -1,0 +1,16 @@
+com\testsuite\examples\model1\ModelSolution1.class
+com\testsuite\framework\exceptions\TestSuiteException.class
+com\testsuite\framework\model\TestSuite.class
+com\testsuite\framework\TestCaseFileExporter.class
+com\testsuite\examples\model1\ModelSolution1Interface.class
+com\testsuite\examples\model1\mutations\ModelSolution1Buggy2.class
+com\testsuite\examples\model1\mutations\ModelSolution1Equivalent1.class
+com\testsuite\framework\model\TestCase.class
+com\testsuite\examples\model1\mutations\ModelSolution1Buggy1.class
+com\testsuite\examples\model1\mutations\ModelSolution1Buggy5.class
+com\testsuite\examples\model1\mutations\ModelSolution1Buggy4.class
+com\testsuite\framework\TemplateEngine.class
+com\testsuite\framework\input\RandomIntegerInput.class
+com\testsuite\MainTestSuite.class
+com\testsuite\examples\model1\mutations\ModelSolution1Buggy3.class
+com\testsuite\framework\TestSuiteRunner.class

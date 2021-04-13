@@ -26,6 +26,7 @@ public class MainTestSuite {
         mutations.add(new ModelSolution1Buggy3());
         mutations.add(new ModelSolution1Buggy4());
         mutations.add(new ModelSolution1Buggy5());
+//        mutations.add(new ModelSolution1Equivalent1());
 
         // 3) define a random input
         RandomIntegerInput randomIntegerInput = new RandomIntegerInput();
@@ -38,7 +39,7 @@ public class MainTestSuite {
 
         // 6) generate TestSuite based on selected and minimized test cases
         TestSuite finalResults = testSuiteRunner.generateTestSuite(minimizedCases);
-
+//        System.out.println(testSuiteRunner.getEquivalent()+" Number of equivalent mutants");
         // 7) export to file
         testSuiteRunner.exportToFile(finalResults, "test_suite.txt");
 

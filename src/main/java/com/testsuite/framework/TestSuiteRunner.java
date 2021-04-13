@@ -16,7 +16,16 @@ import java.util.List;
 public class TestSuiteRunner {
 
     // max number of iterations
-    public static final int ITERATIONS = 10;
+    public static final int ITERATIONS = 20;
+
+//    Only counts numbers of equivalents mutants
+//    private int equivalent=0;
+//    counts all possible combination of the test cases.
+    private  int testCaseCounter=1;
+
+//    public int getEquivalent() {
+//        return equivalent;
+//    }
 
     private TemplateEngine templateEngine;
     private TestCaseFileExporter testCaseFileExporter;
@@ -58,14 +67,17 @@ public class TestSuiteRunner {
                 // compute on buggy model
                 int result = mutation.add(a , b);
 //               All possible generated pairs not minimized ones
-                System.out.println("Test case: a = " + a + " b = " + b
+                System.out.println(testCaseCounter+" Test case: a = " + a + " b = " + b
                         + " = (result on buggy model " + mutation.toString() + ") = " + result
                         + " valid value = " + resultOnValidModel);
-
+                testCaseCounter++;
                 // add the test case only if no valid output
 //                avoid the equivalent test cases
 
                 int delta = Math.abs(resultOnValidModel - result);
+//                if(delta<=0){
+//                    equivalent++;
+//                }
                 if (delta > 0) {
                     // create the test case to save
                     TestCase testCase = new TestCase();
@@ -83,6 +95,7 @@ public class TestSuiteRunner {
                 }
                 else{
 //                    Equivalent cases are disregarded
+
                 }
 
             }

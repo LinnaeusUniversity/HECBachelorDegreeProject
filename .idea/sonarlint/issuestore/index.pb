@@ -38,3 +38,9 @@ i
 9src/main/java/com/testsuite/framework/TemplateEngine.java,6\5\6565ebb940ed484cc1f7fc0847429a60c90c1c36
 o
 ?src/main/java/com/testsuite/framework/TestCaseFileExporter.java,2\e\2ed857838b2735afc48b51889c0f3e5e3abe9ec3
+
+Osrc/main/java/com/testsuite/examples/model1/mutations/ModelSolution1Buggy4.java,b\1\b1fc0300dbca604594cf7cb9890424a2ff0ad90e
+
+Osrc/main/java/com/testsuite/examples/model1/mutations/ModelSolution1Buggy5.java,6\1\612450bdfae9aa3d7a71891b0f75f5a3276848a2
+„
+Tsrc/main/java/com/testsuite/examples/model1/mutations/ModelSolution1Equivalent1.java,d\a\dafe42372e2ff7384472853a31c739a3286081e3

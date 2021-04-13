@@ -1,9 +1,9 @@
 
+N	java:S106"9Replace this use of System.out or System.err by a logger.(é‡àÒ
+Q	java:S125-"<This block of commented-out lines of code should be removed.(Öµ¸ô
 
 java:S1319$"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(ðž¸¨
-2
-java:S1643"Use a StringBuilder instead.(›Ù¸
-N	java:S106"9Replace this use of System.out or System.err by a logger.(é‡àÒ
 6
 java:S2129%" Remove this "String" constructor(èÜŸ
-Q	java:S125-"<This block of commented-out lines of code should be removed.(Öµ¸ô
+2
+java:S1643"Use a StringBuilder instead.(›Ù¸
