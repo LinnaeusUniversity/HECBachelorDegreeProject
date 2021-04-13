@@ -9,8 +9,9 @@ import com.testsuite.framework.model.TestSuite;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class TestSuiteRunner {
 
@@ -43,7 +44,7 @@ public class TestSuiteRunner {
 
         // clear the test case hash map to keep only the minimized results
         map.clear();
-
+        System.out.println("All possible generated pairs not minimized ones");
         List<TestCase> list = new ArrayList<>();
         for (int i = 0; i < ITERATIONS; i++) {
             // get a new couple of values
@@ -56,12 +57,14 @@ public class TestSuiteRunner {
             for (ModelSolution1Interface mutation : mutations) {
                 // compute on buggy model
                 int result = mutation.add(a , b);
-
+//               All possible generated pairs not minimized ones
                 System.out.println("Test case: a = " + a + " b = " + b
                         + " = (result on buggy model " + mutation.toString() + ") = " + result
                         + " valid value = " + resultOnValidModel);
 
                 // add the test case only if no valid output
+//                avoid the equivalent test cases
+
                 int delta = Math.abs(resultOnValidModel - result);
                 if (delta > 0) {
                     // create the test case to save
@@ -73,9 +76,15 @@ public class TestSuiteRunner {
                             + " = (" + mutation.toString() + ") = " + result);
 
                     list.add(testCase);
-
+//                   TestCase(text=Test case: a = 15 b = 7 = (a - b) = 8, a=15, b=7, result=22)
                     map.put(a + "_" + b, testCase);
+                    //        {15_7=TestCase(text=Test case: a = 15 b = 7 = (a - b) = 8, a=15, b=7, result=22)}
+
                 }
+                else{
+//                    Equivalent cases are disregarded
+                }
+
             }
         }   // end of the iterations
 
@@ -83,8 +92,12 @@ public class TestSuiteRunner {
     }
 
     //  create the minimized list based on what is contained inside the hash map
+//    Taking the values
     public List<TestCase> getMinimizeTestCases() {
         ArrayList<TestCase> minimizedTestCases = new ArrayList<>();
+//        map.forEach((key, value)->{
+//            minimizedTestCases.add(value);
+//        });
         map.values().forEach( t -> {
             minimizedTestCases.add(t);
         });

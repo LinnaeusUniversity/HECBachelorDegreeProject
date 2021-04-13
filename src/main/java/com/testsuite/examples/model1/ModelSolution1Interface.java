@@ -5,4 +5,5 @@ public interface ModelSolution1Interface {
 
     int add(int a, int b);
 
+
 }
