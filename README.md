@@ -29,11 +29,11 @@ and resources, and they could use the complete automation prototype model for qu
 ***
 ### Prototype Model Architecture
      
-![Prototype model](Update me)
+![Prototype model](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/Diagrams/Prototype%20model%20v3.0.png)
 ***
 #### The prototype model list of supported Mutation operators
 #### Note: Only Arithmetic Operators are implemented
-No |    Arithmetic | Operators
+No |    Supported Mutation | Operators
 ------- | ---------------- | ---------- 
 1  | Arithmetic Operators | /, *, +, -  
 2  | Arithmetic Assignments Operators        | /=, *=, -=, +=      
