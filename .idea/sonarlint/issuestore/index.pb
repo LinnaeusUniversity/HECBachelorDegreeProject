@@ -44,3 +44,5 @@ Osrc/main/java/com/testsuite/examples/model1/mutations/ModelSolution1Buggy4.java
 Osrc/main/java/com/testsuite/examples/model1/mutations/ModelSolution1Buggy5.java,6\1\612450bdfae9aa3d7a71891b0f75f5a3276848a2
 „
 Tsrc/main/java/com/testsuite/examples/model1/mutations/ModelSolution1Equivalent1.java,d\a\dafe42372e2ff7384472853a31c739a3286081e3
+B
+EVALUATION V1.0.md,c\2\c292cb27a224f43cffa22cc2b6d8f9347c90646f

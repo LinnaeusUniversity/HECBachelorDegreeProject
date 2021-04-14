@@ -2,14 +2,15 @@
 # GENERATING TESTS SUITES FROM A MODEL SOLUTION
 ***
 
-### [HEC BACHELOR DEGREE PROJECT REPOSITORY](https://github.com/rqkohistani/HECBachelorDegreeProject)
+<!--- ### 1. [HEC BACHELOR DEGREE PROJECT REPOSITORY](https://github.com/rqkohistani/HECBachelorDegreeProject)--->
+### 1. HEC BACHELOR DEGREE PROJECT REPOSITORY
 1. [EVALUATION V1.0](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/EVALUATION%20V1.0.md)
 1. [Older version of the Degree Project](https://github.com/rqkohistani/degreeProject)
-### [PITEST EVALUATION REPOSITORY](https://github.com/rqkohistani/PiTest)
+### 2. [PITEST EVALUATION REPOSITORY](https://github.com/rqkohistani/PiTest)
 1. [EVALUATION V.10](https://github.com/rqkohistani/PiTest/blob/main/PITEST%20EVALUATION%20RESULTS%20V%201.0.md)
-### [EVOSUITE EVALUATION REPOSITORY](https://github.com/rqkohistani/EvoSuite) 
+### 3. [EVOSUITE EVALUATION REPOSITORY](https://github.com/rqkohistani/EvoSuite)
 1. [EVALUATION V.10](https://github.com/rqkohistani/EvoSuite/blob/main/Evaluation%20V_1.0.md)
-### [JDK AND MAVEN CONFIGURATION REQUIREMENTS REPOSITORY](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
+### 4. [JDK AND MAVEN CONFIGURATION REQUIREMENTS REPOSITORY](https://github.com/rqkohistani/JDK_MAVEN_EVOSUITE)
 ***
 
 ## Preparing the project
