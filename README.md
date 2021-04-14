@@ -530,3 +530,9 @@ No |    Supported Mutation | Operators
     [INFO] Total time:  4.176 s
     [INFO] Finished at: 2021-04-13T16:05:57+02:00
     [INFO] ------------------------------------------------------------------------
+
+***
+### Class diagram
+     
+![Prototype model](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/Diagrams/ModelSolutin1ClassDiagram.png)
+***
