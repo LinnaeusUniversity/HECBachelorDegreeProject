@@ -3,6 +3,31 @@
 ***
 # EVALUATION V1.0
 ***
+## Score/Results
+## Number of test 20
+## Code coverage over all 100%
+## Prototype model Test Suites Run time in 3 s and 480 ms
+##  EvoSuite Results
+### 1. Generated 3 Test suites for the Model Solution
+### 2. Coverage: class 100%(1/1) method 100%(1/1) Line 100% (1/1)  
+## Manual Test suites
+### 1. Generated 4 manual Test suites for the Model Solution
+### 2. Coverage class 100%(1/1) method 100%(1/1) Line 100% (1/1)
+## Pit Test Coverage 
+### 1. For the 20 automated test suites: Coverage class 100%(1/1) method 100%(1/1) Line 100% (1/1)
+### 2. Generated 2 mutations Killed 2 (100%)
+### 3. Ran 2 tests (1 tests per mutation) 
+## Mutation Score
+### 1. Mutation Score=(Killed mutants/Total number of Mutants) * 100
+The prototype model generated 5 buggy version of the model solution. Each buggy version has been check with the 
+model solution and the difference are saved as not minimized test cases. In total there are 20 Integer pairs. 
+E.g 13, 15... Which these pairs were check for all possible mutants. 5 buggy version * 20 pairs, hence total 100 
+test cases "mutants". So now, the prototype model has generated 100 test case and JUnit test suites. 
+The final results:
+If the score is 100%, the experimental results indicates that generated mutants were all killed. 
+
+## Conclusion, The prototype model is performing faster than EvoSuite by generating Test suites for the model solution.
+***   
 #### Model Solution
 
      public int add(int a, int b) {
@@ -129,7 +154,7 @@
 ***
 
 ## EvoSuite Results
-
+#### 1. mvn clean
 #### 1. mvn validate
 #### 1. mvn compile
 #### 1. mvn test
@@ -174,29 +199,29 @@
     [INFO] Finished at: 2021-04-14T10:26:04+02:00
 #### MyEvoSuite_ESTest
     
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class MyEvoSuite_ESTest extends MyEvoSuite_ESTest_scaffolding {
-
-  @Test(timeout = 4000)
-  public void test0()  throws Throwable  {
-      MyEvoSuite myEvoSuite0 = new MyEvoSuite();
-      int int0 = myEvoSuite0.add(126, 0);
-      assertEquals(126, int0);
-  }
-
-  @Test(timeout = 4000)
-  public void test1()  throws Throwable  {
-      MyEvoSuite myEvoSuite0 = new MyEvoSuite();
-      int int0 = myEvoSuite0.add((-1314), 126);
-      assertEquals((-1188), int0);
-  }
-
-  @Test(timeout = 4000)
-  public void test2()  throws Throwable  {
-      MyEvoSuite myEvoSuite0 = new MyEvoSuite();
-      int int0 = myEvoSuite0.add(0, 0);
-      assertEquals(0, int0);
-  }
+    @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+    public class MyEvoSuite_ESTest extends MyEvoSuite_ESTest_scaffolding {
+    
+      @Test(timeout = 4000)
+      public void test0()  throws Throwable  {
+          MyEvoSuite myEvoSuite0 = new MyEvoSuite();
+          int int0 = myEvoSuite0.add(126, 0);
+          assertEquals(126, int0);
+      }
+    
+      @Test(timeout = 4000)
+      public void test1()  throws Throwable  {
+          MyEvoSuite myEvoSuite0 = new MyEvoSuite();
+          int int0 = myEvoSuite0.add((-1314), 126);
+          assertEquals((-1188), int0);
+      }
+    
+      @Test(timeout = 4000)
+      public void test2()  throws Throwable  {
+          MyEvoSuite myEvoSuite0 = new MyEvoSuite();
+          int int0 = myEvoSuite0.add(0, 0);
+          assertEquals(0, int0);
+      }
 
 
 #### MyEvoSuite_ESTest_scaffolding
@@ -284,6 +309,18 @@ public class MyEvoSuite_ESTest extends MyEvoSuite_ESTest_scaffolding {
         );
       }
 
+#### mvn test
+    Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.31 sec
+    
+    Results :
+    
+    Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+    
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time:  4.398 s
+    [INFO] Finished at: 2021-04-14T11:04:01+02:00
 ***
 #### Incremental build model technique process
 ![Incremental build model technique process](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/Diagrams/Evaluation%20v3.0.png)
