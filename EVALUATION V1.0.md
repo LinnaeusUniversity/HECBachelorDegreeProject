@@ -65,23 +65,13 @@
 ***
 #### 1.7 Pit Test Coverage Report
 ##### 7.1 Package Summary
-    com.app
-    Number of Classes	Line Coverage	Mutation Coverage
-    1	                100%    2/2	    100%    2/2
+![Package Summary](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/pit-reports/First20TestSuites%20202104140927/package%20summary.png)
     
-    Breakdown by Class
-    Name	            Line Coverage	Mutation Coverage
-    ModelSolution1.java	100%    2/2     100%    2/2
 ##### 7.2 Project Summary    
-    Project Summary
-    Number of Classes	Line Coverage	Mutation Coverage
-    1	                100% 2/2	    100% 2/2
-    
-    Breakdown by Package
-    Name	    Number of Classes	Line Coverage	Mutation Coverage
-    com.app	    1	                100%    2/2	    100%    2/2
-    
+![Project Summary](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/pit-reports/First20TestSuites%20202104140927/Project%20Summary.png)
+        
 ##### 7.3 Mutations
+![Mutations Summary](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/pit-reports/First20TestSuites%20202104140927/Mutations.png)
 
 
 
