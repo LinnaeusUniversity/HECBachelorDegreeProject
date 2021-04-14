@@ -116,10 +116,15 @@
     >> Ran 2 tests (1 tests per mutation)
     09:30:27 PIT >> INFO : Completed in 1 seconds
 ***
-#### 1. 
-#### 1. 
-#### 1. 
-#### 1.  
+#### 2.7 Pit Test Coverage Report
+##### 7.1 Package Summary
+![Package Summary](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/pit-reports/Second18TestSuites%20202104140930/Package%20Summary.png)
+    
+##### 7.2 Project Summary    
+![Project Summary](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/pit-reports/Second18TestSuites%20202104140930/Project%20Summary.png)
+        
+##### 7.3 Mutations
+![Mutations Summary](https://github.com/rqkohistani/HECBachelorDegreeProject/blob/main/src/main/resources/pit-reports/Second18TestSuites%20202104140930/Mutations.png)
 
 
 
