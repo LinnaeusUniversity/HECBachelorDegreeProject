@@ -1,9 +1,9 @@
 
 ?
-java:S2140")Use "java.util.Random.nextInt()" instead.(•„âÓ
-@
-java:S1068"%Remove this unused "a" private field.(Ş‹®øÿÿÿÿ
-?
 java:S2140")Use "java.util.Random.nextInt()" instead.(•„âÓ
 @
 java:S1068"%Remove this unused "b" private field.(Ø¾ì±üÿÿÿÿ
+@
+java:S1068"%Remove this unused "a" private field.(Ş‹®øÿÿÿÿ
+?
+java:S2140")Use "java.util.Random.nextInt()" instead.(•„âÓ

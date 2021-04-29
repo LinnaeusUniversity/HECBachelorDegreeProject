@@ -86,7 +86,7 @@ public class TestSuiteRunner {
                     testCase.setResult(resultOnValidModel); // set the correct valid value
                     testCase.setText("Test case: a = " + a + " b = " + b
                             + " = (" + mutation.toString() + ") = " + result);
-
+//todo: fix the txt file mutation problem
                     list.add(testCase);
 //                   TestCase(text=Test case: a = 15 b = 7 = (a - b) = 8, a=15, b=7, result=22)
                     map.put(a + "_" + b, testCase);
@@ -108,12 +108,12 @@ public class TestSuiteRunner {
 //    Taking the values
     public List<TestCase> getMinimizeTestCases() {
         ArrayList<TestCase> minimizedTestCases = new ArrayList<>();
-//        map.forEach((key, value)->{
-//            minimizedTestCases.add(value);
-//        });
-        map.values().forEach( t -> {
-            minimizedTestCases.add(t);
+        map.forEach((key, value)->{
+            minimizedTestCases.add(value);
         });
+//        map.values().forEach( t -> {
+//            minimizedTestCases.add(t);
+//        });
 
         return minimizedTestCases;
     }

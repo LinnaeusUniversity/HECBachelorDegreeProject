@@ -16,9 +16,11 @@ import java.util.List;
 public class MainTestSuite {
 
     public static void main(String[] args) {
+//        System.out.println(-5>-1);
+
         // 1) Create the test suite Runner
         TestSuiteRunner testSuiteRunner = new TestSuiteRunner();
-
+// todo:
         // 2) set the mutation's list
         List<ModelSolution1Interface> mutations = new ArrayList<>();
         mutations.add(new ModelSolution1Buggy1());
@@ -26,6 +28,7 @@ public class MainTestSuite {
         mutations.add(new ModelSolution1Buggy3());
         mutations.add(new ModelSolution1Buggy4());
         mutations.add(new ModelSolution1Buggy5());
+        mutations.add(new ModelSolution1Buggy6());
 //        mutations.add(new ModelSolution1Equivalent1());
 
         // 3) define a random input

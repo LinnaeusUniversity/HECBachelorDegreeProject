@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HECBachelorDegreeProject" target="8" />
+      <module name="HECBachelorDegreeProject" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

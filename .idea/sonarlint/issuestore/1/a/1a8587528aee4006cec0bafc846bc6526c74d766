@@ -1,20 +1,20 @@
 
-]	java:S125N"<This block of commented-out lines of code should be removed.(ŒÍÜœıÿÿÿÿ8ó„«ÙŒ/
-]	java:S125"<This block of commented-out lines of code should be removed.(âıâ‡şÿÿÿÿ8Îõ¨ÙŒ/
-]	java:S899¢";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8°ó‹ÙŒ/
-N
-java:S1602r",Remove useless curly braces around statement(½äÑµøÿÿÿÿ8°ó‹ÙŒ/
-X	java:S125"<This block of commented-out lines of code should be removed.(À·èÅ8¦½¨ÙŒ/
-X	java:S125]"<This block of commented-out lines of code should be removed.(ÃïÛî8°ó‹ÙŒ/
-d	java:S899£"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8°ó‹ÙŒ/
-Z
-java:S1117´"7Rename "map" which hides the field declared at line 32.(ü…‹Êşÿÿÿÿ8°ó‹ÙŒ/
-N
-java:S1612r",Replace this lambda with a method reference.(½äÑµøÿÿÿÿ8óÇÕŒ/
 q
 java:S4042¢"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8°ó‹ÙŒ/
+X	java:S125"<This block of commented-out lines of code should be removed.(À·èÅ8¦½¨ÙŒ/
 Z	java:S106F"9Replace this use of System.out or System.err by a logger.(ä™Ôúÿÿÿÿ8°ó‹ÙŒ/
-]	java:S125o"<This block of commented-out lines of code should be removed.(‰õşÿÿÿÿ8°ó‹ÙŒ/
-U	java:S1068"9Replace this use of System.out or System.err by a logger.(»æıÒ8°ó‹ÙŒ/
 f
 java:S2095¦"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Åß·Ã8óÇÕŒ/
+]	java:S125N"<This block of commented-out lines of code should be removed.(ŒÍÜœıÿÿÿÿ8ó„«ÙŒ/
+]	java:S899¢";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8°ó‹ÙŒ/
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(»æıÒ8°ó‹ÙŒ/
+Z
+java:S1117´"7Rename "map" which hides the field declared at line 32.(ü…‹Êşÿÿÿÿ8°ó‹ÙŒ/
+]	java:S125"<This block of commented-out lines of code should be removed.(âıâ‡şÿÿÿÿ8Îõ¨ÙŒ/
+d	java:S899£"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8°ó‹ÙŒ/
+X	java:S125]"<This block of commented-out lines of code should be removed.(ÃïÛî8°ó‹ÙŒ/
+T
+java:S1135Y"2Complete the task associated to this TODO comment.(÷üÿ¡úÿÿÿÿ8ïâÈ»‘/
+N
+java:S1602o",Remove useless curly braces around statement(Ä®öÿÿÿÿÿ8ïâÈ»‘/
+]	java:S125r"<This block of commented-out lines of code should be removed.(ÀÙÊÃüÿÿÿÿ8ïâÈ»‘/
